@@ -32,7 +32,7 @@ export default function Home() {
     <>
     <main className="container mx-auto px-4 py-6">
       <h2 className="text-4xl font-bold mb-4">Welcome to Our Blog</h2>
-      <p>Here you can see the latest posts</p>
+      <p>Latest posts</p>
     </main>
     <div className="flex justify-end px-4">
       <input onKeyDown={searchPost} ref={inputRef} type="text" className="px-4 py-2 border border-gray-300 rounded-md" placeholder="Search..." />
